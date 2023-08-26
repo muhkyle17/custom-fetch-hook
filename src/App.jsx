@@ -1,9 +1,12 @@
 import './App.css'
+import useFetch from './useFetch'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Hello World</h1>
+      <h1>
+        {data?.setup} : {data?.delivery}
+      </h1>
     </div>
   )
 }
